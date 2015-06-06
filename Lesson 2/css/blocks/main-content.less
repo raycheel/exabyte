@@ -1,0 +1,43 @@
+#main-wrapper {
+    height: 100%;
+    width: 100%;
+    display: table;
+    position: absolute;
+}
+
+#fluid-wrapper {
+    display: table-cell;
+    vertical-align: top;
+    margin-left: 216px;
+    position: relative;
+}
+
+#fluid-wrapper.container-fluid {
+    padding: 0;
+}
+
+#top-nav.navbar {
+    border-bottom: 1px solid #e0e4e8;
+    border-radius: 0;
+}
+
+.main-content {
+    background-color: @main-back-color;
+    color: inherit;
+    font-size: 13px;
+    font-weight: 200;
+    line-height: 21px;
+    margin-top: 0;
+    padding: 10px 25px 25px;
+}
+
+.left-sidebar {
+    display: table-cell;
+    position: relative;
+    vertical-align: top;
+}
+.left-sidebar {
+    background: none repeat scroll 0 0 @sidebar-color;
+    width: 280px;
+    z-index: 2;
+}
